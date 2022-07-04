@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet" async> -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+    <title>Annals od Nursing</title>
+</head>
+<body>
+    <header>
+        <div class="log">
+            <div class="profile">
+                <div class="prof prof1">
+                    <p class="pomeraj"><a class="links" href="http://">Sign Up <span class="material-icons icdown">account_circle</span></a></p>
+                </div>
+                <div class="prof">
+                    <p class="pomeraj"><a class="links" href="http://">Login <span class="material-icons icdown">login</span></a></p>
+                </div>
+            </div>
+        </div>
+        <div>
+        <div class="bellowMenu">
+            <div class="menu">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo image">
+                </div>
+                <nav class="mainnav">
+                    <ul>
+                        <li>
+                            <a href="index.html" class="linklogo">Home</a>
+                        </li>
+                        <li>
+                            <a href="archive.html" class="linklogo">Archive</a>
+                        </li>
+                        <li>
+                            <a href="instructions.html" class="linklogo">Instructions</a>
+                        </li>
+                        <li>
+                            <a href="submission.html" class="linklogo">Submission</a>
+                        </li>
+                        <li>
+                            <a href="editorial.html" class="linklogo">Editorial Board</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="linklogo active">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu__hamburger" onclick="hamburger(this), white()">
+                    <div class="menu__bar1 menu__bar1--first"></div>
+                    <div class="menu__bar2"></div>
+                    <div class="menu__bar3"></div>
+                </div>
+                <div class="drop">
+                    <nav class="drop__nav">
+                      <ul class="drop__ul">
+                        <li class="drop__li">
+                          <a class="drop__a linklogo" href="index.html">Home</a>
+                        </li>
+                        <li class="drop__li">
+                          <a class="drop__a linklogo" href="archive.html">Archive</a>
+                        </li>
+                        <li class="drop__li">
+                          <a class="drop__a linklogo" href="instructions.html">Instructions</a>
+                        </li>
+                        <li class="drop__li">
+                          <a class="drop__a linklogo" href="submission.html">Submission</a>
+                        </li>
+                        <li class="drop__li">
+                          <a class="drop__a linklogo" href="editorial.html">Editorial Board</a>
+                        </li>
+                        <li class="drop__li">
+                            <a class="drop__a linklogo active" href="contact.html">Contact</a>
+                          </li>
+                      </ul>
+                    </nav>
+                    <div class="bordo">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <div class="contact_main">
+        <div class="contact_center">
+
+            <p class="contact_title">Contact Form</p>
+        
+
+                <form action="#">
+
+                    <div class="smallerblock_div">
+                        <div class="">
+                            <input type="text" name="" id="" class="smallerinput" placeholder="First Name">
+                        </div>
+                        <div>
+                            <input type="text" name="" id="" class="smallerinput" placeholder="Last Name">
+                        </div>
+                    </div>
+                    
+                    <div class="margin_div">
+                        <input type="text" name="" id="" class="biggerinput" placeholder="Subject">
+                    </div>
+                    <div class="margin_div">
+                        <textarea name="" id="" class="biggerinput" placeholder="Message"></textarea>
+                    </div>
+
+                    <div class="contact_subblk">
+                        <button type="submit" class="contact_sub">Send</button>
+                    </div>
+                    
+                </form>
+            </div>
+    </div>
+
+
+            
+
+
+
+    </div>
+    <footer>
+        <p>Copyright &copy; <span id="year"></span> | Annals of Nursing</p>
+    </footer>
+    <script src="js/copyright.js"></script>
+    <script src="js/fixed.js"></script>
+    <script src="js/hamburger.js"></script>
+</body>
+</html>

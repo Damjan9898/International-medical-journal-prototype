@@ -1,0 +1,299 @@
+@media screen and (max-width: 1400px){
+    .logo{
+        height:60px;
+    }
+    .centerBlok{
+        width:90%;
+    }
+    .hederTekst{
+        margin-left:50px;
+        width:100%;
+    }
+    .moreAbout{
+        margin-top:30px;
+    }
+    .announcements{
+        width:90%;
+    }
+    .current{
+        width:90%;
+    }
+    .cissue{
+        width:90%;
+    }
+}
+@media screen and (max-width: 1300px){
+    .centerBlock{
+        width:90%;
+    }
+    .editsection{
+        width:600px;
+        padding-top:50px;
+        margin-bottom:0px;
+    }
+    .editblock{
+        margin-bottom:20px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .allVolumes{
+        border:1px solid #0B396C;
+        overflow-x: scroll;
+    }
+    .volume{
+        width:1150px;
+    }
+}
+@media screen and (max-width: 1050px){
+    .table-wrapper {
+        width: 100%;
+    }
+    .scenterBlock{
+        width: 90%;
+    }
+    .grayb{
+        margin-top:10px;
+        margin-left:0px;
+    }
+    .centerdown{
+        display:flex;
+        flex-direction: column;
+    }
+    .instructions_center{
+        width:90%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .mainnav{
+        display:none;
+    }
+    .menu__hamburger{
+        display:block;
+    }
+    .profile{
+        margin-right:10px;
+    }
+    .prof{
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .drop {
+        display: block;
+    }
+    .centerBlok{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hederTekst{
+        height:auto;
+        margin-left:0px;
+        margin-bottom:30px;
+    }
+    .formsub{
+        width:90%;
+        display: inline-block;
+    }
+    .subbutton{
+        margin-top:20px;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .subform{
+        width:100%;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .sub{
+        width:80%;
+    }
+    .casopisMain{
+        margin-top:30px;
+    }
+    .heder{
+        padding-bottom: 10px;
+        
+    }
+}
+@media screen and (max-width: 800px){
+    .currentImage{
+       display:none;
+    }
+    .currentText{
+        margin-left:0px;
+    }
+    .contact_center{
+        width:80%;
+        padding:30px 20px 40px 5px;
+    }
+    .margin_div{
+        width:90%;
+    }
+    .smallerblock_div{
+        flex-direction: column;
+        height:115px;
+        width:90%;
+    }
+    .smallerinput{
+        width:100%;
+    }
+    .biggerinput{
+        width:100%;
+    }
+}
+@media screen and (max-width: 700px){
+    
+    .logo{
+        height:60px;
+    }
+    .allstat{
+        flex-direction: column;
+        height:100px;
+    }
+    .separator{
+        display:none;
+    }
+    .toppx{
+        width:200px;
+    }
+    .separate{
+        display: block;
+    }
+    .searchfield{
+        width:200px;
+    }
+    .scenterBlock{
+        overflow-x: scroll;
+        border: 1px solid #0B396C;
+        padding:10px;
+    }
+    .wrapper-panel{
+        width:700px;
+        padding-bottom:50px;
+    }
+    
+}
+@media screen and (max-width: 650px){
+    .centerBlock{
+        width:90%;
+    }
+    .editsection{
+        width:300px;
+        padding-top:30px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .allVolumes{
+        border:1px solid #0B396C;
+        overflow-x: scroll;
+    }
+    .volume{
+        width:1150px;
+    }
+}
+@media screen and (max-width: 500px){
+    .prof{
+        font-size:13px;
+    }
+    .prof span{
+        font-size:22px;
+    }
+    .hederTekst h1{
+        font-size:30px;
+        margin-top:-20px;
+    }
+    .hederTekst h2{
+        font-size:18px;
+    }
+    .hederTekst p{
+        margin-top:20px; 
+        font-size:16px;
+    }
+    .menu__bar1, .menu__bar2, .menu__bar3 {
+        width: 28px;
+        height: 4px;
+        margin: 5px 0;
+      }
+      .menu__bar1--first {
+        margin-top: 0px;
+      }
+    
+      .change .menu__bar1 {
+        -webkit-transform: rotate(-45deg) translate(-6px, 7px);
+        transform: rotate(-45deg) translate(-6px, 7px);
+      }
+    
+      .change .menu__bar3 {
+        -webkit-transform: rotate(45deg) translate(-6px, -7px);
+        transform: rotate(45deg) translate(-6px, -7px);
+      }
+      .moreAbout{
+        margin-top:30px;
+        padding:8px;
+    }
+    .moreAbout a{
+        font-size:15px;
+        letter-spacing: 0.5px;
+    }
+    .casopisMain{
+        height:380px;
+    }
+    .titlemain{
+        font-size:26px;
+    }
+    .instructions_main{
+        padding:40px 0px;
+    }
+    .ann-title a{
+        font-size: 18px;
+    }
+    .ann-date{
+        font-size:14px;
+    }
+    .ann-text{
+        font-size: 15px;
+    }
+    .ann-content{
+        height:2000px;
+    }
+    .ann-blocks{
+        height:auto;
+    }
+    .ann-block{
+        margin-bottom:30px;
+        margin-left:20px;
+        height:auto;
+    }
+    .currentText h1{
+        font-size:20px;
+    }
+    .currentText p{
+        font-size:15px;
+    }
+    .announcements{
+        margin-bottom:20px;
+    }
+    .current{
+        flex-direction: column-reverse;
+    }
+    .currentImage{
+        display:block;
+        margin:auto;
+        margin-top:40px;
+        height:300px;
+     }
+     .sub h1{
+        font-size:25px;
+    }
+    .sub p{
+        margin-top:20px;
+        font-size:15px;
+    }
+    .subform{
+        font-size: 15px;
+    }
+    .subbutton{
+        padding-left:15px;
+        padding-right:15px;
+        font-size:15px;
+        letter-spacing: 0.5px;
+    }
+}

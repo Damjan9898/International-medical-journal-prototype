@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet" async> -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+    <title>Annals od Nursing</title>
+</head>
+<body>
+    <header>
+        <div class="log">
+            <div class="profile">
+                <div class="prof prof1">
+                    <p class="pomeraj"><a class="links" href="http://">Sign Up <span class="material-icons icdown">account_circle</span></a></p>
+                </div>
+                <div class="prof">
+                    <p class="pomeraj"><a class="links" href="http://">Login <span class="material-icons icdown">login</span></a></p>
+                </div>
+            </div>
+        </div>
+        <div>
+        <div class="bellowMenu">
+            <div class="menu">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo image">
+                </div>
+                <nav class="mainnav">
+                    <ul>
+                        <li>
+                            <a href="index.html" class="linklogo">Home</a>
+                        </li>
+                        <li>
+                            <a href="archive.html" class="linklogo">Archive</a>
+                        </li>
+                        <li>
+                            <a href="instructions.html" class="linklogo">Instructions</a>
+                        </li>
+                        <li>
+                            <a href="submission.html" class="linklogo">Submission</a>
+                        </li>
+                        <li>
+                            <a href="editorial.html" class="linklogo">Editorial Board</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="linklogo">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu__hamburger" onclick="hamburger(this), white()">
+                    <div class="menu__bar1 menu__bar1--first"></div>
+                    <div class="menu__bar2"></div>
+                    <div class="menu__bar3"></div>
+                </div>
+                <div class="drop">
+                    <nav class="drop__nav">
+                      <ul class="drop__ul">
+                        <li class="drop__li">
+                          <a class="drop__a linklogo" href="index.html">Home</a>
+                        </li>
+                        <li class="drop__li">
+                          <a class="drop__a linklogo" href="archive.html">Archive</a>
+                        </li>
+                        <li class="drop__li">
+                          <a class="drop__a linklogo" href="instructions.html">Instructions</a>
+                        </li>
+                        <li class="drop__li">
+                          <a class="drop__a linklogo" href="submission.html">Submission</a>
+                        </li>
+                        <li class="drop__li">
+                          <a class="drop__a linklogo" href="editorial.html">Editorial Board</a>
+                        </li>
+                        <li class="drop__li">
+                            <a class="drop__a linklogo" href="contact.html">Contact</a>
+                          </li>
+                      </ul>
+                    </nav>
+                    <div class="bordo">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <div class="scenterBlock">
+    <h1 class="titlemain"><span>Archive</span></h1>
+    <hr class="hr">
+    <div class="filter">
+        <div class="search">
+            <form action="">
+                <input type="text" class="searchfield">
+                <button type="submit" class="searchbutt"><span class="material-icons">search</span></button>
+            </form>
+        </div>
+    </div>    
+	<div class="table-wrapper">
+        <div class="wrapper-panel">     
+        <table id="kat-kolona">
+          <thead class="thead">
+              <th class="pagth cell1">Title</th>
+              <th class="pagth thmove">Authors</th>
+              <th class="pagth thmove">Keywords</th>
+              <th class="pagth thmove"> </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="artr">
+              <td class="cell1 arttitle">Neki naslov naucnog casopisa</td>
+              <td class="artauth"><span>Nikola Nikolic,</span> <span>Marko Markovic,</span><span>Nemanja Nemanjic</span></td>
+              <td>cancer, energy, vitamin D</td>
+              <td class="lasttd">
+                <div class="tdflex">
+                    <div class="centerdown">
+                        <button class="readarticle">Read Now</button>
+                        <button class="readarticle grayb">Download PDF</button>
+                    </div>
+                </div>
+              </td>
+            </tr>
+            <tr class="artr">
+                <td class="cell1 arttitle">Drugi naslov naucnog casopisa takodje malo duzi</td>
+                <td class="artauth"><span>Milos Nikolic,</span> <span>Srdjan Markovic,</span><span>Petar Nemanjic</span></td>
+                <td>cancer, energy, vitamin D</td>
+                <td class="lasttd">
+                    <div class="tdflex">
+                        <div class="centerdown">
+                            <button class="readarticle">Read Now</button>
+                            <button class="readarticle grayb">Download PDF</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="artr">
+                <td class="cell1 arttitle">Treci naslov naucnog casopisa</td>
+                <td class="artauth"><span>Darko Nikolic,</span> <span>Bogdan Markovic,</span><span>Srdjan Nemanjic</span></td>
+                <td>cancer, energy, vitamin D</td>
+                <td class="lasttd">
+                    <div class="tdflex">
+                        <div class="centerdown">
+                            <button class="readarticle">Read Now</button>
+                            <button class="readarticle grayb">Download PDF</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="artr">
+                <td class="cell1 arttitle">Cetvrti naslov naucnog casopisa neki duzi malo</td>
+                <td class="artauth"><span>Darko Milic,</span> <span>Bogdan Tadic,</span><span>Srdjan Filipovic</span></td>
+                <td>magnesium, energy, vitamin D</td>
+                <td class="lasttd">
+                    <div class="tdflex">
+                        <div class="centerdown">
+                            <button class="readarticle">Read Now</button>
+                            <button class="readarticle grayb">Download PDF</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="artr">
+                <td class="cell1 arttitle">Neki naslov naucnog casopisa</td>
+                <td class="artauth"><span>Nikola Nikolic,</span> <span>Marko Markovic,</span><span>Nemanja Nemanjic</span></td>
+                <td>cancer, energy, vitamin D</td>
+                <td class="lasttd">
+                    <div class="tdflex">
+                        <div class="centerdown">
+                            <button class="readarticle">Read Now</button>
+                            <button class="readarticle grayb">Download PDF</button>
+                        </div>
+                    </div>
+                </td>
+              </tr>
+              <tr class="artr">
+                  <td class="cell1 arttitle">Drugi naslov naucnog casopisa</td>
+                  <td class="artauth"><span>Milos Nikolic,</span> <span>Srdjan Markovic,</span><span>Petar Nemanjic</span></td>
+                  <td>cancer, energy, vitamin D</td>
+                  <td class="lasttd">
+                    <div class="tdflex">
+                        <div class="centerdown">
+                            <button class="readarticle">Read Now</button>
+                            <button class="readarticle grayb">Download PDF</button>
+                        </div>
+                    </div>
+                  </td>
+              </tr>
+              <tr class="artr">
+                  <td class="cell1 arttitle">Treci naslov naucnog casopisa</td>
+                  <td class="artauth"><span>Darko Nikolic,</span> <span>Bogdan Markovic,</span><span>Srdjan Nemanjic</span></td>
+                  <td>cancer, energy, vitamin D</td>
+                  <td class="lasttd">
+                    <div class="tdflex">
+                            <div class="centerdown">
+                                <button class="readarticle">Read Now</button>
+                                <button class="readarticle grayb">Download PDF</button>
+                            </div>
+                    </div>
+                  </td>
+              </tr>
+              <tr class="artr">
+                  <td class="cell1 arttitle">Cetvrti naslov naucnog casopisa</td>
+                  <td class="artauth"><span>Darko Milic,</span> <span>Bogdan Tadic,</span><span>Srdjan Filipovic</span></td>
+                  <td>magnesium, energy, vitamin D</td>
+                  <td class="lasttd">
+                    <div class="tdflex">
+                        <div class="centerdown">
+                            <button class="readarticle">Read Now</button>
+                            <button class="readarticle grayb">Download PDF</button>
+                        </div>
+                    </div>
+                  </td>
+              </tr>
+          </tbody>
+        </table>
+            <div class="wrapper-paging">
+                <ul>
+                  <li><a class="paging-back"><span class="material-icons gicons">chevron_left</span></a></li>
+                  <li><a class="paging-this"><strong>0</strong> of <span>x</span></a></li>
+                  <li><a class="paging-next"><span class="material-icons gicons">chevron_right</span></a></li>
+                </ul>
+              </div>
+        </div>
+	</div>
+</div>
+<footer>
+    <p>Copyright &copy; <span id="year"></span> | Annals of Nursing</p>
+</footer>
+<script src="js/paginator.js"></script>
+
+<script src="js/copyright.js"></script>
+<script src="js/fixed.js"></script>
+<script src="js/hamburger.js"></script>
+</body>
+</html>
